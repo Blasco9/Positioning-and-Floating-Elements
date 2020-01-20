@@ -4,7 +4,6 @@
 nav{
     display: flex;
     justify-content: space-between;
-    width: 100% ;
     border-bottom: 1px #567b95 solid;
     border-top: 1px #567b95 solid;
     padding: 5px;
@@ -89,4 +88,106 @@ main{
 .footer-photo{
     
     font-size: 13.25px;
+}
+
+.author-container {
+    float: left;
+}
+
+.author {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.author-name {
+    color: black;
+}
+
+.author-name:hover {
+    text-decoration: none;
+}
+
+.social-media {
+    float: right;
+}
+
+.text {
+    clear: both;
+    padding-top: 2rem;
+}
+
+.round-icon {
+    width: 27px;
+    height: 27px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.text-container {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.text-container h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-container a {
+    color: #326891;
+}
+
+.text-container a:hover {
+    text-decoration: none;
+}
+
+.unlock-content {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.unlock-content p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.unlock-content a {
+    text-decoration: none;
+}
+
+.content-border {
+    width: 75px;
+    margin: 0 auto;
+}
+
+.theory-img-container {
+    text-align: center;
+}
+
+.theory-img-container img {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 945px;
+    height: 576px;
+}
+
+.universe-div {
+    width: 228px;
+    height: 120px;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 17px;
+}
+
+.universe-div span {
+    font-weight: bold;
 }
