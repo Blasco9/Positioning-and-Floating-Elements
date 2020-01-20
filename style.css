@@ -178,6 +178,8 @@ main{
     max-width: 100%;
     width: 945px;
     height: 576px;
+    display: block;
+    position: absolute;
 }
 
 .universe-div {
@@ -190,4 +192,10 @@ main{
 
 .universe-div span {
     font-weight: bold;
+}
+
+.universe-div:nth-child(1){
+    top: 24.8264%;
+    left: 25.5619%;
+    width: 228px;
 }
