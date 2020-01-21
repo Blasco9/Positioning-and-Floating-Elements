@@ -176,6 +176,7 @@ main {
 
 .theory-iframe {
   border: none;
+  width: 100%;
 }
 
 .video {
