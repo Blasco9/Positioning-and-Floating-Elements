@@ -111,6 +111,11 @@ main {
   cursor: pointer;
 }
 
+.aside-right{
+  position:absolute;
+  right: 5%;
+}
+
 .text {
   clear: both;
   padding-top: 2rem;
@@ -443,4 +448,16 @@ footer {
 .expand-btn-icon {
   cursor: pointer;
   transform: rotate(-90deg);
+}
+.editors-card{
+  width: 250px;
+  height: 78px;
+}
+.editors-img{
+  width: 75px;
+  height: 75px;
+}
+.editors-card p {
+  width: 155px;
+  height: 51px;
 }
