@@ -42,10 +42,6 @@ nav {
   cursor: pointer;
 }
 
-.logo-div {
-  flex: 1;
-}
-
 .logo-top {
   width: 225px;
   height: 29px;
@@ -485,14 +481,14 @@ footer {
 }
 
 .editors-card p {
-  font-family: nyt-cheltenham-small, georgia, 'times new roman';
+  font-family: nyt-cheltenham, georgia, 'times new roman';
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   width: 100%;
   color: rgb(51, 51, 51);
-  padding: 16px 16px 0px 16px;
-  margin-bottom: 0px;
+  padding: 16px 16px 0 16px;
+  margin-bottom: 0;
 }
 
 .editors-card a {
