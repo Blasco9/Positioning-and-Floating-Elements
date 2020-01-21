@@ -211,7 +211,7 @@ main {
 }
 .related-articles-header {
   border-top: 1px solid black;
-  width: 845px;
+  width: 60%;
   margin-left: 10%;
   padding-top: 17px;
   padding-bottom: 15px;
@@ -276,7 +276,7 @@ main {
 
 .editors-pick-header {
   border-top: 1px solid black;
-  width: 845px;
+  width: 60%;
   margin-left: 10%;
   padding-top: 17px;
   padding-bottom: 15px;
@@ -287,7 +287,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 291px 291px;
   grid-gap: 10px;
-  width: 852px;
+  width: 60%;
   margin-left: 10%;
 }
 
