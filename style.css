@@ -43,7 +43,7 @@ nav{
     width: 225px;
     height: 29px;
 }
-.subscribe{
+.btn {
     border-radius: 3px;
     cursor: pointer;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
@@ -169,33 +169,32 @@ main{
     margin: 0 auto;
 }
 
-.theory-img-container {
-    text-align: center;
+.theory-iframe {
+  border: none;
 }
 
-.theory-img-container img {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 945px;
-    height: 576px;
-    display: block;
-    position: absolute;
+.video {
+  height: 357px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
-.universe-div {
-    width: 228px;
-    height: 120px;
-    display: inline-block;
-    font-size: 1rem;
-    line-height: 17px;
+.video-iframe {
+  width: 100%;
+  height: 100%;
 }
 
-.universe-div span {
-    font-weight: bold;
+.telescope-img-container {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
 }
 
-.universe-div:nth-child(1){
-    top: 24.8264%;
-    left: 25.5619%;
-    width: 228px;
+.telescope-img {
+  max-width: 100%;
+}
+
+.big-btn {
+  width: 330px;
 }
