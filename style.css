@@ -114,6 +114,7 @@ main {
 .aside-right{
   position:absolute;
   right: 5%;
+  top: 480%;
 }
 
 .text {
@@ -450,6 +451,9 @@ footer {
   transform: rotate(-90deg);
 }
 .editors-card{
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
   width: 250px;
   height: 78px;
 }
@@ -458,6 +462,18 @@ footer {
   height: 75px;
 }
 .editors-card p {
-  width: 155px;
-  height: 51px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  color: rgb(51, 51, 51);
+  padding: 16px 16px 0px 16px;
+  margin-bottom: 0px;
+}
+.editors-card a{
+  text-decoration: none;
+}
+h5{
+  margin-bottom: 20px;
 }
