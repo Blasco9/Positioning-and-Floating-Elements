@@ -2,7 +2,8 @@
 
 This is the third project of the Microverse HTML and CSS Curriculum. The project consists of a clone of one article of the New York Times web page.
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot_1.png)
+![screenshot](./screenshot_2.png)
 
 ## Built with
 - HTML5
