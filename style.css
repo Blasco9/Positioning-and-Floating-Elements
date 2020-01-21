@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -8,18 +9,22 @@ nav {
   border-top: 1px #567b95 solid;
   padding: 5px;
 }
+
 .search {
   flex: 1;
   justify-content: space-around;
 }
+
 .icon {
   width: 20px;
   height: 20px;
 }
+
 .icon1 {
   width: 18px;
   height: 18px;
 }
+
 .link1 {
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -31,17 +36,21 @@ nav {
   letter-spacing: 0.7px;
   line-height: 19px;
 }
+
 .link1:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .logo-div {
   flex: 1;
 }
+
 .logo-top {
   width: 225px;
   height: 29px;
 }
+
 .btn {
   border-radius: 3px;
   cursor: pointer;
@@ -63,27 +72,32 @@ nav {
   padding: 11px 12px 8px;
   text-transform: uppercase;
 }
+
 .top-header {
   position: relative;
   left: 30%;
   max-width: 383.777px;
   text-align: left;
 }
+
 main {
   width: 70%;
   margin: 0 auto;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
+
 .photo-container {
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
 }
+
 #img1 {
   width: 100%;
   height: 100%;
   margin: 5px;
 }
+
 .footer-photo {
   font-size: 13.25px;
 }
@@ -111,8 +125,8 @@ main {
   cursor: pointer;
 }
 
-.aside-right{
-  position:absolute;
+.aside-right {
+  position: absolute;
   right: 5%;
   top: 245%;
 }
@@ -204,11 +218,13 @@ main {
 .big-btn {
   width: 330px;
 }
+
 .article-date-footer {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
   margin-bottom: 1rem;
 }
+
 .comments {
   margin-bottom: 3rem;
 }
@@ -216,6 +232,7 @@ main {
 .grid-img {
   width: 100%;
 }
+
 .related-articles-header {
   border-top: 1px solid black;
   width: 60%;
@@ -270,10 +287,12 @@ main {
   margin-top: 5px;
   color: #999;
 }
+
 .title {
   font-size: 1.125rem;
   margin-top: 10px;
 }
+
 .date-img {
   color: #999;
   font-size: 12px;
@@ -384,7 +403,8 @@ footer {
   border-bottom: 1px solid rgb(190, 190, 190);
 }
 
-.subscribe-middle-container li, .subscribe-end-container li {
+.subscribe-middle-container li,
+.subscribe-end-container li {
   font-size: 12px;
   margin: 0.5rem 0;
 }
@@ -439,7 +459,6 @@ footer {
 
 .expand-text {
   display: inline-block;
-  
 }
 
 .expand-btn {
@@ -451,19 +470,22 @@ footer {
   cursor: pointer;
   transform: rotate(-90deg);
 }
-.editors-card{
+
+.editors-card {
   cursor: pointer;
   margin-top: 20px;
   display: flex;
   width: 250px;
   height: 78px;
 }
-.editors-img{
+
+.editors-img {
   width: 75px;
   height: 75px;
 }
+
 .editors-card p {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, 'times new roman';
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -472,9 +494,11 @@ footer {
   padding: 16px 16px 0px 16px;
   margin-bottom: 0px;
 }
-.editors-card a{
+
+.editors-card a {
   text-decoration: none;
 }
-h5{
+
+h5 {
   margin-bottom: 20px;
 }
