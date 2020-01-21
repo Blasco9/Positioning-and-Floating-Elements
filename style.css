@@ -159,6 +159,32 @@ main {
   color: #326891;
 }
 
+.unlock-content a {
+  text-decoration: none;
+}
+
+.related-articles-header a {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-columns a {
+  color: black;
+  text-decoration: none;
+}
+
+.end a {
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.editors-card a {
+  text-decoration: none;
+}
+
 .text-container a:hover {
   text-decoration: none;
 }
@@ -173,10 +199,6 @@ main {
   font-size: 15px;
   font-weight: bold;
   margin: 0;
-}
-
-.unlock-content a {
-  text-decoration: none;
 }
 
 .content-border {
@@ -235,13 +257,6 @@ main {
   margin-left: 10%;
   padding-top: 17px;
   padding-bottom: 15px;
-}
-
-.related-articles-header a {
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: black;
 }
 
 .related-articles-header a:hover {
@@ -362,11 +377,6 @@ footer {
   padding: 0;
 }
 
-.footer-columns a {
-  color: black;
-  text-decoration: none;
-}
-
 .footer-columns a:hover {
   text-decoration: underline;
 }
@@ -416,12 +426,6 @@ footer {
   width: 75%;
   margin: 1rem auto;
   margin-bottom: 5rem;
-}
-
-.end a {
-  color: #666;
-  font-size: 12px;
-  text-decoration: none;
 }
 
 .end a:hover {
@@ -481,7 +485,7 @@ footer {
 }
 
 .editors-card p {
-  font-family: nyt-cheltenham, georgia, 'times new roman';
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -489,10 +493,6 @@ footer {
   color: rgb(51, 51, 51);
   padding: 16px 16px 0 16px;
   margin-bottom: 0;
-}
-
-.editors-card a {
-  text-decoration: none;
 }
 
 h5 {
