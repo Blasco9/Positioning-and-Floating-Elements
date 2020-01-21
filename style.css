@@ -207,8 +207,7 @@ main {
 }
 
 .grid-img {
-  width: 272px;
-  height: 182px;
+  width: 100%;
 }
 .related-articles-header {
   border-top: 1px solid black;
@@ -234,15 +233,14 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 291px 291px;
   grid-gap: 10px;
-  width: 852px;
-  height: 638px;
+  width: 60%;
   margin-left: 10%;
 }
 
 .most-popular {
   float: right;
-  width: 318px;
-  margin-right: 70px;
+  width: 25%;
+  margin-right: 2%;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-size: 19px;
   border-top: 1px solid black;
