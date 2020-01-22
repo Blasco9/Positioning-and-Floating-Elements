@@ -6,7 +6,7 @@ This is the third project of the Microverse HTML and CSS Curriculum. The project
 ![screenshot](./screenshot_2.png)
 
 ## Live Demo
-https://raw.githack.com/Blasco9/Positioning-and-Floating-Elements/development/index.html
+https://rawcdn.githack.com/Blasco9/Positioning-and-Floating-Elements/2e0889f12f54d98ad0202946e6635ebb0a395acd/index.html
 
 ## Built with
 - HTML5
